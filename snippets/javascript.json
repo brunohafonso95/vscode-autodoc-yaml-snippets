@@ -1,0 +1,91 @@
+{
+    "annotation": {
+        "prefix": "annotation",
+        "body": [
+            "/// - annotation:",
+            "$2"
+        ],
+        "description": "inicia um bloco de documentação."
+    },
+    "mainTitle": {
+        "prefix": "mainTitle",
+        "body": [
+            "/// \tmainTitle: $1"
+        ],
+        "description": "anotação que insere um título principal no bloco de documentação."
+    },
+    "title": {
+        "prefix": "title",
+        "body": [
+            "/// \ttitle: $1"
+        ],
+        "description": "anotação que insere um título no bloco de documentação."
+    },
+    "text_description": {
+        "prefix": "text_description",
+        "body": [
+            "/// \ttext_description:",
+            "/// \t\t- texto $2"
+        ],
+        "description": "anotação que insere um paragrafo no bloco de documentação."
+    },
+    "parameters": {
+        "prefix": "parameters",
+        "body": [
+            "/// \tparameters:",
+            "/// \t\t- tipoDoParametro: nomeDoParametro $2"
+        ],
+        "description": "anotação que insere parâmetros no bloco de documentação."
+    },
+    "ex": {
+        "prefix": "exe",
+        "body": [
+            "/// \tex:",
+            "/// \t\t- language: nome da linguagem",
+            "/// \t\t- linha do exemplo de código"
+        ],
+        "description": "anotação que insere uma exception no bloco de documentação."
+    },
+    "exception": {
+        "prefix": "exception",
+        "body": [
+            "/// \texception: descrição da exception$1"
+        ],
+        "description": "anotação que insere uma exception no bloco de documentação."
+    },
+    "return": {
+        "prefix": "return",
+        "body": [
+            "/// \treturn:",
+            "/// \t\t- tipoRetorno: descrição do retorno $2"
+        ],
+        "description": "anotação que insere descrição para o/os retorno/s no bloco de documentação."
+    },
+    "image": {
+        "prefix": "image",
+        "body": [
+            "/// \timage:",
+            "/// \t\t- imageLink: imagem.png",
+            "/// \t\t- altText: texto imagem"
+        ],
+        "description": "anotação que insere uma imagem no bloco de documentação."
+    },
+    "unorderedList": {
+        "prefix": "unorderedList",
+        "body": [
+            "/// \tunorderedList:",
+            "/// \t\t- listItem1",
+            "/// \t\t- listItem2$2"
+        ],
+        "description": "anotação que insere uma lista inordadenada no bloco de documentação."
+    },
+    "orderedList": {
+        "prefix": "orderedList",
+        "body": [
+            "/// \torderedList:",
+            "/// \t\t- listItem1",
+            "/// \t\t- listItem2$2"
+        ],
+        "description": "anotação que insere uma lista ordadenada no bloco de documentação."
+    }
+}
