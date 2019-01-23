@@ -87,5 +87,14 @@
             "/// \t\t- listItem2$2"
         ],
         "description": "anotação que insere uma lista ordadenada no bloco de documentação."
+    },
+    "link": {
+        "prefix": "link",
+        "body": [
+            "/// \tlink:",
+            "/// \t\t- linkText: texto do link",
+            "/// \t\t- linkUrl: url$2"
+        ],
+        "description": "anotação que insere um link no bloco de documentação."
     }
 }
