@@ -1,12 +1,12 @@
 {
   "name": "autodoc-yaml-snippets",
   "description": "Coleção de snippets para usar o autodoc_yaml.",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "displayName": "Autodoc Yaml Snippets",
   "publisher": "brunohafonso",
   "icon": "images/autodoc.png",
   "galleryBanner": {
-    "color": "#000000",
+    "color": "#142095",
     "theme": "dark"
   },
   "engines": {
@@ -28,11 +28,11 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./snippets/javascript.json"
+        "path": "./snippets/general.json"
       },
       {
         "language": "typescript",
-        "path": "./snippets/typescript.json"
+        "path": "./snippets/general.json"
       },
       {
         "language": "yaml",
@@ -40,7 +40,7 @@
       },
       {
         "language": "java",
-        "path": "./snippets/java.json"
+        "path": "./snippets/general.json"
       },
       {
         "language": "python",

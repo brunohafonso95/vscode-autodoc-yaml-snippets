@@ -2,8 +2,7 @@
     "annotation": {
         "prefix": "annotation",
         "body": [
-            "- annotation:",
-            "\t\t$2"
+            "- annotation: $1"
         ],
         "description": "inicia um bloco de documentação."
     },
@@ -25,7 +24,8 @@
         "prefix": "text_description",
         "body": [
             "text_description:",
-            "\t- texto $2"
+            "\t- paragraph:",
+            "\t\t- linha o paragrafo $2"
         ],
         "description": "anotação que insere um paragrafo no bloco de documentação."
     },
